@@ -16,4 +16,8 @@ To outpus 'This is outpus.'
     b=12345
     out=2
 ```
-To assignments.
+To assignments:
+a is a (or 'a')
+b is 12345 (or '12345')
+out is 2
+
