@@ -19,9 +19,10 @@ def priht(a):
         if 'par' in a and ':;' in a:
             b = a.find('par')
             c = a.find(':;')
-            d = Nstr(a,cses[a[b+4:c-1]])-Nstr(a[b:c+1],cses[a[b+4:c-1]])
-            print(d[6:])
-        else:print(a[6:])
+            #d = Nstr(a,cses[a[b+4:c-1]])-Nstr(a[b:c+1],cses[a[b+4:c-1]])
+            priht(Nstr(a,cses[a[b+4:c-1]])-Nstr(a[b:c+1],cses[a[b+4:c-1]]))
+            #print(d[6:])
+        else:print(a[a.find('print:'):])
     else:
         cs = fUz(a)
         try:cses[cs[0]] = cs[1]
