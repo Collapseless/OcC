@@ -22,7 +22,7 @@ def priht(a):
             #d = Nstr(a,cses[a[b+4:c-1]])-Nstr(a[b:c+1],cses[a[b+4:c-1]])
             priht(Nstr(a,cses[a[b+4:c-1]])-Nstr(a[b:c+1],cses[a[b+4:c-1]]))
             #print(d[6:])
-        else:print(a[a.find('print:'):])
+        else:print(a[a.find('print:')+6:])
     else:
         cs = fUz(a)
         try:cses[cs[0]] = cs[1]
