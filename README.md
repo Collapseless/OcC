@@ -1,16 +1,16 @@
 # OcC
 The OcC Programming Language
 
-#Can
+# Can
 Implement simple outputs, assignments (for now)
 
-##outputs
+## outputs
 ```
     print:This is outpus.
 ```
 To outpus 'This is outpus.'
 
-##assignments
+## assignments
 ```
     a=a
     b=12345
